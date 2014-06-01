@@ -7,7 +7,7 @@ Install with [npm](npmjs.org):
 
 ```bash
 npm i verb-tag-symbols --save-dev
-``` 
+```
 
 ## Usage
 
