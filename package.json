@@ -1,0 +1,48 @@
+{
+  "name": "verb-tag-symbols",
+  "description": "Tag for Verb. Parse custom symbols in markdown documents.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/verb-tag-symbols",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/verb-tag-symbols.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/verb-tag-symbols/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/verb-tag-symbols/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "symbol",
+    "docs",
+    "documentation",
+    "generate",
+    "generator",
+    "markdown",
+    "templates",
+    "tag",
+    "verbtag",
+    "verb"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "*",
+    "verb": "~0.2.6",
+    "verb-tag-appname": "^0.1.1"
+  }
+}
