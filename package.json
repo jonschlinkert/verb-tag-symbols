@@ -1,7 +1,7 @@
 {
   "name": "verb-tag-symbols",
   "description": "Tag for Verb. Parse custom symbols in markdown documents.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/verb-tag-symbols",
   "author": {
     "name": "Jon Schlinkert",
@@ -42,7 +42,9 @@
   "devDependencies": {
     "chai": "~1.9.1",
     "mocha": "*",
-    "verb": "~0.2.6",
-    "verb-tag-appname": "^0.1.1"
+    "verb": "~0.2.6"
+  },
+  "dependencies": {
+    "markdown-symbols": "^0.1.2"
   }
 }

@@ -22,7 +22,7 @@ tags: ['verb-tag-symbols']
 In your templates, you can now use the tag like this:
 
 ```js
-{%= symbols(include("foo")) %}
+{%= symbols(docs("foo")) %}
 ```
 
 Front-matter is just one way to register verb tags, filters, and plugins. See the [verb documentation][docs] for more info.
